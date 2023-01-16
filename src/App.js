@@ -248,7 +248,7 @@ class App extends Component {
 
     return (
       <div className = 'content'  style={this.state.style} >
-        <textarea className = 'inputA' rows = "4" cols = "50" onChange = { this.translator.bind(this) }  autofocus/> 
+        <textarea className = 'inputA' rows = "4" cols = "50" onChange = { this.translator.bind(this) } autoFocus /> 
          
         <div className = 'outputArea2' id = 'outputarea2' >
            { this.state.html }
